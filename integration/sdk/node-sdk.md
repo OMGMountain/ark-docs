@@ -35,7 +35,7 @@ npm install ans-node-sdk --save
 
   // es6 
   import AnalysysAgent from "ans-node-sdk"
-  import LogCollector  from 'ans-node-sdk/sdk/AnalysysAgent_NodeJS_SDK_LogCollecter.cjs.js.js';
+  import LogCollector  from 'ans-node-sdk/sdk/AnalysysAgent_NodeJS_SDK_LogCollecter.cjs.js';
 
   // 非es6 
   var AnalysysAgent = require("ans-node-sdk");
@@ -48,12 +48,12 @@ npm install ans-node-sdk --save
 
 ```javascript
   // es6 
-  import AnalysysAgent from "ans-node-sdk"
-  import LogCollector  from 'ans-node-sdk/sdk/AnalysysAgent_NodeJS_SDK_LogCollecter.cjs.js';
+  import AnalysysAgent from "./sdk/AnalysysAgent_NodeJS_SDK.es6.js"
+  import LogCollector  from './sdk/AnalysysAgent_NodeJS_SDK_LogCollecter.es6.js';
 
   // 非es6 
-  var AnalysysAgent = require("ans-node-sdk");
-  var LogCollector = require('ans-node-sdk/sdk/AnalysysAgent_NodeJS_SDK_LogCollecter.cjs.js');
+  var AnalysysAgent = require("./sdk/AnalysysAgent_NodeJS_SDK.cjs.js");
+  var LogCollector = require('./sdk/AnalysysAgent_NodeJS_SDK_LogCollecter.cjs.js');
 ```
 
 ## 2. SDK 初始化
